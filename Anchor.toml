@@ -1,0 +1,19 @@
+[features]
+seeds = false
+
+[programs.localnet]
+tic_tac_toe = "EGi1AxWuWEjVx65mwm1KysjVAXJcBNhRka1PqcoXtTNB"
+costa_rica = "Fonzsf9TYwye6VEHYhWLMTiZRt1sJY212ekoXB9rZogJ"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/kenzy/.config/solana/id.json"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "yarn run ts-mocha -t 1000000 tests/**/*.test.ts"
+
+[test]
+startup_wait = 70000
