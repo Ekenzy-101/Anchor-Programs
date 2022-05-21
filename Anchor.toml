@@ -4,6 +4,7 @@ seeds = false
 [programs.localnet]
 tic_tac_toe = "EGi1AxWuWEjVx65mwm1KysjVAXJcBNhRka1PqcoXtTNB"
 costa_rica = "Fonzsf9TYwye6VEHYhWLMTiZRt1sJY212ekoXB9rZogJ"
+escrow = "G6A6Nt2iPp6rtZXhTonvtYZUzssETNhHvPBaF3KezG6v"
 
 [provider]
 cluster = "localnet"
